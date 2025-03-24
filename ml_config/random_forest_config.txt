@@ -1,0 +1,5 @@
+max_depth=15
+max_features=95 
+min_samples_leaf=16
+min_samples_split=4
+n_estimators=70

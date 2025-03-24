@@ -1,0 +1,11 @@
+n_estimators=245
+max_depth=8
+min_child_weight=1
+subsample=0.7612
+colsample_bytree=0.6027
+reg_lambda=0
+reg_alpha=0.003
+learning_rate=0.0421
+booster=gbtree
+tree_method=hist
+gamma=0.8254
