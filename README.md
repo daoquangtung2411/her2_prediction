@@ -92,6 +92,10 @@ Where:
 
 The predictions will be printed as a table with columns `SMILES` and `pred_IC50`. If a file was used for prediction, the results will be saved in a CSV file with the timestamp as a prefix.
 
+### Virtual screening result
+
+You can download our virtual screening result via link: https://drive.google.com/file/d/1eD3iGVt5n3JCfu3afmXO32jLp1d2BguO/view?usp=share_link
+
 ---
 
 ## License
