@@ -22,7 +22,7 @@ Alternatively, if you're only interested in a minimal installation, the followin
 
 ## Reproducing Results
 
-To reproduce our best results, simply run the following command:
+To reproduce our best results (XGBoost model), simply run the following command:
 
 ```bash
 python train_ml_model.py
@@ -66,7 +66,9 @@ Where:
 - `BATCH_SIZE_TO_SPLIT_WHEN_TRAIN_MODEL`: Batch size to use when splitting data for training.
 - `ACTIVATION_FUNCTION`: Activation function for the network (e.g., `relu`, `sigmoid`).
 
-## Running Prediction on SMILES
+## Running Prediction
+
+### Predicting from Single SMILES
 
 To make predictions on a single SMILES string, run the following command:
 
@@ -90,7 +92,7 @@ Where:
 
 ### Output
 
-The predictions will be printed as a table with columns `SMILES` and `pred_IC50`. If a file was used for prediction, the results will be saved in a CSV file with the timestamp as a prefix.
+The predictions will be printed as a table with columns `SMILES` and `pred_IC50`. The results will be saved in a CSV file with the timestamp as a prefix to predict_result folder.
 
 ### Virtual screening result
 
